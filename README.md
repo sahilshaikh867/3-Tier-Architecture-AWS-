@@ -63,7 +63,7 @@ Below is a **copy-paste–ready “Architecture Diagram (Text)” section** you 
 
 ## 🔐 Network & Security Layout
 
-
+~~~
 VPC (10.0.0.0/16)
 │
 ├── Public Subnets (AZ-A, AZ-B)
@@ -77,7 +77,7 @@ VPC (10.0.0.0/16)
 │
 └── DB Subnets (AZ-A, AZ-B)
     └── Amazon RDS MySQL (Private, No Public Access)
-
+~~~
 
 ---
 
